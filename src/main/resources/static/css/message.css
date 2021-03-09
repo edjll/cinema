@@ -1,0 +1,15 @@
+.error-code, .message {
+    color: white;
+    text-align: center;
+}
+
+.error-code {
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.message {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}

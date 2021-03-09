@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.table-wrapper {
+    height: 64vh;
+    overflow-y: auto;
+    margin-bottom: 1vh;
+}
+
+.table-wrapper::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #d1d5d9;
+    border-radius: 5px;
+}
+
+.already-activate {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    color: white;
+    padding: 1.2em;
+    background-color: #000000e6;
+}

@@ -1,0 +1,101 @@
+main {
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    box-shadow: 0px 12px 8px 5px black;
+    background-color: black;
+}
+
+.film-trailer, .film-video {
+    height: calc(100vh - 90px);
+    width: 100%;
+}
+
+.film-trailer {
+    object-fit: cover;
+}
+
+.film-info {
+    transition: transform 0.5s;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    width: 40%;
+    padding: 10% 0 0 15%;
+    background-image: linear-gradient(90deg, transparent, #000000bf, black 60%);
+    height: 100%;
+}
+
+.video-controls {
+    position: absolute;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.video-controls button {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 1;
+    outline: none;
+}
+
+.video-controls-volume button img, .video-controls-state button img {
+    position: absolute;
+    top: 0;
+    height: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: none;
+}
+
+.active {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+.video-controls-volume, .video-controls-state {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-color: #1f1f1fba;
+    padding: 5px;
+}
+
+.video-controls-volume input {
+    cursor: pointer;
+    display: none;
+    margin-left: 10px;
+}
+
+.video-controls-volume:hover input {
+    display: block;
+}
+
+.rating-buttons {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.rating-buttons form button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.rating-selected {
+    color: green;
+}

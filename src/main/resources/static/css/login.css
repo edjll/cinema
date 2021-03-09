@@ -1,0 +1,30 @@
+.login-wrapper {
+    margin-top: 1em;
+    padding: 4em;
+    width: 30em;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login-wrapper h1 {
+    color: #007bff;
+    margin-bottom: 0.5em;
+}
+
+.login-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: white;
+    font-size: 1.2em;
+}
+
+.form-group input {
+    font-size: 1.2em;
+}
+
+.login-wrapper form button {
+    margin-top: 2em;
+    font-size: 1.2em;
+}

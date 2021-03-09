@@ -1,0 +1,104 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-wrapper {
+    height: 64vh;
+    overflow-y: auto;
+    margin-bottom: 1vh;
+}
+
+.table-wrapper::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #d1d5d9;
+    border-radius: 5px;
+}
+
+table {
+    margin: 0 !important;
+}
+
+.title-padding {
+    padding-top: 1.4em !important;
+}
+
+.input-group-custom-select {
+    height: 38px;
+    flex-wrap: nowrap;
+}
+
+.select-multiple-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.custom-select-multiple {
+    position: absolute;
+    height: 38px !important;
+}
+
+.custom-select-multiple option {
+    margin-bottom: 0.3em;
+}
+
+.custom-select-multiple option::selection {
+    background-color: red;
+}
+
+.select-multiple-button {
+    width: 96px !important;
+}
+
+.expand {
+    height: 96px !important;
+    z-index: 3;
+}
+
+table {
+    font-size: 0.9em;
+}
+
+table a img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.is-invalid select {
+    border-color: #dc3545 !important;
+}
+
+.is-valid select {
+    border-color: #28a745 !important;
+}
+
+.add, .delete {
+     font-size: 2em;
+     height: 25px;
+     display: flex;
+     align-items: center;
+     width: 25px;
+     justify-content: center;
+     cursor: pointer;
+}
+
+.with-one {
+    text-decoration: underline !important;
+}
+
+.error {
+    color: #dc3545;
+}
+
+.truncate {
+    width: 70px;
+    display: block;
+}

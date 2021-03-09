@@ -1,0 +1,28 @@
+.card-title {
+    margin-bottom: 0;
+}
+
+.progress {
+    position: relative;
+    height: 20px;
+}
+
+.date-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+.date-to-end {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,16 @@
+label[class="col-4"] {
+    position: relative;
+}
+
+.subscribe-input {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+h4 {
+    color: #007bff;
+    margin: 15px;
+}
